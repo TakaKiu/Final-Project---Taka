@@ -1,0 +1,152 @@
+[
+  {
+    "question": "What is the capital of France?",
+    "answers": [
+      "Berlin",
+      "Madrid",
+      "Paris",
+      "Rome"
+    ],
+    "correct": "Paris"
+  },
+  {
+    "question": "Which planet is known as the Red Planet?",
+    "answers": [
+      "Earth",
+      "Mars",
+      "Jupiter",
+      "Saturn"
+    ],
+    "correct": "Mars"
+  },
+  {
+    "question": "What is the largest ocean on Earth?",
+    "answers": [
+      "Atlantic Ocean",
+      "Indian Ocean",
+      "Arctic Ocean",
+      "Pacific Ocean"
+    ],
+    "correct": "Pacific Ocean"
+  },
+  {
+    "question": "Who wrote 'To Kill a Mockingbird'?",
+    "answers": [
+      "Harper Lee",
+      "Mark Twain",
+      "Ernest Hemingway",
+      "J.K. Rowling"
+    ],
+    "correct": "Harper Lee"
+  },
+  {
+    "question": "What is the smallest prime number?",
+    "answers": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correct": "2"
+  },
+  {
+    "question": "In what year did the Titanic sink?",
+    "answers": [
+      "1900",
+      "1912",
+      "1920",
+      "1931"
+    ],
+    "correct": "1912"
+  },
+  {
+    "question": "What is the chemical symbol for gold?",
+    "answers": [
+      "Au",
+      "Ag",
+      "Pb",
+      "Fe"
+    ],
+    "correct": "Au"
+  },
+  {
+    "question": "What is the largest organ in the human body?",
+    "answers": [
+      "Heart",
+      "Liver",
+      "Skin",
+      "Lungs"
+    ],
+    "correct": "Skin"
+  },
+  {
+    "question": "Who painted the Mona Lisa?",
+    "answers": [
+      "Leonardo da Vinci",
+      "Vincent van Gogh",
+      "Pablo Picasso",
+      "Claude Monet"
+    ],
+    "correct": "Leonardo da Vinci"
+  },
+  {
+    "question": "What is the capital city of Australia?",
+    "answers": [
+      "Sydney",
+      "Melbourne",
+      "Canberra",
+      "Brisbane"
+    ],
+    "correct": "Canberra"
+  },
+  {
+    "question": "What is the boiling point of water?",
+    "answers": [
+      "50°C",
+      "75°C",
+      "100°C",
+      "125°C"
+    ],
+    "correct": "100°C"
+  },
+  {
+    "question": "Which element has the atomic number 1?",
+    "answers": [
+      "Helium",
+      "Hydrogen",
+      "Lithium",
+      "Beryllium"
+    ],
+    "correct": "Hydrogen"
+  },
+  {
+    "question": "What is the largest planet in our solar system?",
+    "answers": [
+      "Earth",
+      "Mars",
+      "Jupiter",
+      "Saturn"
+    ],
+    "correct": "Jupiter"
+  },
+  {
+    "question": "What is the freezing point of water?",
+    "answers": [
+      "0°C",
+      "10°C",
+      "32°C",
+      "100°C"
+    ],
+    "correct": "0°C"
+  },
+  {
+    "question": "What is the main language spoken in Brazil?",
+    "answers": [
+      "Spanish",
+      "English",
+      "Portuguese",
+      "French"
+    ],
+    "correct": "Portuguese"
+  }
+]

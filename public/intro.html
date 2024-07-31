@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz Master Challenge</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div id="intro">
+        <img src="intro.jpg" alt="Quiz Master Challenge" id="intro-image">
+        <h1>Quiz Master Challenge</h1>
+        <p>Created by Taka Kiuchi</p>
+        <h2>Rules:</h2>
+        <ul>
+            <li>Answer each question by clicking one of the answer buttons.</li>
+            <li>Each correct answer earns you 10 points, incorrect answers earn 0 points.</li>
+            <li>Try to score as high as possible!</li>
+        </ul>
+        <button id="start-button">Start Game</button>
+    </div>
+    <script>
+        document.getElementById('start-button').addEventListener('click', () => {
+            window.location.href = 'questions.html'; // Redirect to the question page
+        });
+    </script>
+</body>
+</html>

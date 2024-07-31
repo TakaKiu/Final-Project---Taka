@@ -1,9 +1,9 @@
 {
   "name": "template",
   "version": "1.0.0",
-  "description": "",
+  "description": "Final Project Template",
   "scripts": {
-    "start": "open index.html",
+    "start": "node server.js",
     "test": "jest",
     "test:watch": "jest --watchAll",
     "postinstall": "node .scripts/badge.js"
@@ -23,5 +23,12 @@
     "lodash": "^4.17.15",
     "rewire": "^5.0.0",
     "simple-git": "^2.5.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.2",
+    "phaser": "^3.80.1"
   }
 }
