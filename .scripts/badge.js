@@ -6,7 +6,8 @@ const path = require('path');
 async function main() {
     try {
         const remote = await git.getRemotes(true);
-        const originFetch = remote.filter(r => r.name === 'origin')[0]?.refs.fetch;
+        const origin = remote.filter(r => r.name === 'origin')[0];
+        const originFetch = origin ? origin.refs.fetch : null;
 
         if (!originFetch) {
             throw new Error('No origin remote found');
