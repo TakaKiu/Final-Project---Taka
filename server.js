@@ -25,7 +25,7 @@ mongoose.connect(process.env.MONGODB_URI, {
 
 // Define your routes
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public', 'index.html')); // Serve the intro page
+    res.sendFile(path.join(__dirname, 'public', 'intro.html')); // Serve the intro page
 });
 
 app.get('/questions', (req, res) => {
