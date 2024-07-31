@@ -6,7 +6,7 @@ const path = require('path');
 async function main() {
     try {
         const remote = await git.getRemotes(true);
-        const origin = remote.filter(r => r.name === 'origin')[0];
+        const origin = remote.find(r => r.name === 'origin');
         const originFetch = origin ? origin.refs.fetch : null;
 
         if (!originFetch) {
@@ -43,8 +43,9 @@ async function main() {
                     callback: ({ file, line, text, replacedText, error }) => {
                         if (error) throw error;
 
-                        git.add([readmePath]);
-                        git.commit('update README file');
+                        git.add([readmePath])
+                            .commit('update README file')
+                            .catch(err => console.error('Git commit failed:', err));
                     }
                 });
             }
